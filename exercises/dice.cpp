@@ -48,25 +48,35 @@ void full_die (int n) {
 }
 
 
-int row_die(){
+int initialize(){
     srand(static_cast<unsigned>(time(0)));
 
     return (rand() % 6) +1;
 }
+
+int row_die(){
+    return rand() % 6 +1;
+}
+
 int main() {
 
-    srand(static_cast<unsigned>(time(0)));
+    // srand(static_cast<unsigned>(time(0)));
+    initialize();
 
-    int die_1= (rand() % 6) + 1;
-    int die_2= (rand() % 6) + 1;
+    // int die_1= (rand() % 6) + 1;
+    // int die_2= (rand() % 6) + 1;
     // int die_3 = row_die();
     // int die_4 = row_die();
 
 
-    full_die(die_1);
-    full_die(die_2);
+    // full_die(die_1);
+    // full_die(die_2);
     // full_die(die_3);
     // full_die(die_4);
+
+    full_die(row_die());
+    full_die(row_die());
+
 
 
     // std::cout << die_1 << " " << die_2 << '\n';
