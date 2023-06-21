@@ -37,6 +37,9 @@ void full_die (int n) {
             std::cout << "|*     *|\n";
             std::cout << "|*     *|\n";
             break;
+        default:
+            std::cout << "*** Illegal die value ***";
+            break;
     }
 
     std::cout << "+-------+\n"; //bottom bound
