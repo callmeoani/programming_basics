@@ -32,7 +32,7 @@ int main() {
         std::cout << sample[i] << ", ";
     }
 
-    std::cout << " is: ";
+    std::cout << " is : ";
 
     std::cout << static_cast<double>(sum)/NUMBER_OF_INPUTS << ". \n";
 
