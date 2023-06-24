@@ -26,7 +26,7 @@ int main() {
     }
 
     std::cout << '\n';
-    std::cout << "The aggregate of ";
+    std::cout << "The aggregate of the inputed numbers is: ";
 
     for(int i = 0; i <= (NUMBER_OF_INPUTS - 1); i++){
         std::cout << sample[i] << ", ";
