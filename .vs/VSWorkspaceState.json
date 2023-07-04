@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\concepts",
+    "\\exercises"
   ],
-  "SelectedNode": "\\simple.exe",
+  "SelectedNode": "\\exercises\\arrangingStars.cpp",
   "PreviewInSolutionExplorer": false
 }
